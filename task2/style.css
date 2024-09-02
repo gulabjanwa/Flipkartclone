@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background-color: rgb(216, 227, 223);
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-header {
+    background-color: #ffff;
+    height: 67px;
+    display: flex;
+
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.troggle-bar {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.logobar {
+    font-size: 25px;
+    color: blue;
+    font-weight: 900;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.logo-text {
+    display: flex;
+    width: 50px;
+    margin-left: 50px;
+    gap: 5px;
+    font-style: italic;
+}
+
+.text1 {
+    color: rgb(189, 192, 192);
+    font-weight: 600;
+}
+
+.text2 {
+    color: rgb(231, 147, 13);
+    font-weight: 600;
+}
+
+.searchbox {
+    display: flex;
+    width: 50%;
+}
+
+.searchbar {
+    height: 44px;
+    width: 100%;
+    border-style: unset;
+    background-color: aliceblue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.serachbutton {
+    display: flex;
+    height: 44px;
+    width: 40px;
+    padding: 8px 8px 8px 12px;
+    border-style: unset;
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+i {
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+div.endbar {
+    display: flex;
+}
+
+.logintext {
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.userimage {
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+
+.arrowicon {
+    height: 20px;
+    width: 20px;
+    border-style: unset;
+    background-color: #ffff;
+}
+
+.cartbox {
+    margin-left: 20px;
+}
+
+div.carttext {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+img.cart {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+div.homebox {
+    margin-left: 50px;
+}
+
+img.homebar {
+    height: 30px;
+    width: 30px;
+}
+
+div.hometext {
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+div.list {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+/*  nav bar */
+
+
+.navbar {
+    background-color: rgb(216, 227, 223);
+    overflow: hidden;
+
+}
+
+div.navbar-item {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    text-align: center;
+    column-gap: 50px;
+    margin-left: 10px;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+.item1 {
+    padding: 5px;
+    flex-grow: 1;
+}
+
+#text {
+    color: #212121;
+    margin-top: 5px;
+
+
+}
+
+
+/* section 3 */
+.image-section3 {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sec3-image {
+    height: 250px;
+    width: 100%;
+
+}
+
+/*section 4*/
+
+div.section4 {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+div.heading {
+    padding: 16px 12px;
+    background-color: white;
+}
+
+h3.content {
+    font-size: 25px;
+    color: #212121;
+}
+
+div.section4-item {
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 35px;
+}
+
+img.imgsec4 {
+    height: 140px;
+    margin: 26px 10px;
+}
+
+div.sec4-item {
+    height: 280px;
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid rgb(208, 204, 204);
+    border-radius: 5px;
+}
+
+div.sec4-image {
+    height: 230px;
+    width: 100%;
+
+}
+
+div.namephone {
+    color: #212121;
+    height: 20px;
+}
+
+div.phoneprice {
+    color: #0e0e0e;
+    height: 20px;
+    font-weight: 600;
+}
+
+.main-section {
+    display: flex;
+    overflow: hidden;
+}
+
+div.sub-section4 {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 20%;
+}
+
+div.sec4-image {
+    height: 390px;
+    width: 100%;
+}
+
+.sub-sec-image {
+    height: 380px;
+    width: 100%;
+}
+
+/**  section 5   */
+
+div.section5,
+.section7 {
+    height: 100%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+div.sec5-item,
+.sec7-item {
+    display: flex;
+    column-gap: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.sec5-img1,
+.sec7-img1 {
+    height: 264px;
+    width: 100%;
+}
+
+/* Section 6  */
+div.section6 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+div.sub-section6 {
+    background-color: white;
+    display: flex;
+
+}
+
+div.sec6-item {
+    text-align: center;
+    height: 280px;
+    flex-grow: 1;
+    border: 1px solid rgb(208, 204, 204);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+
+.sec6-img {
+    border-radius: 5px;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.namephone1 {
+    color: #212121;
+    height: 20px;
+    margin-top: 20px;
+}
+
+/*section 7*/
+div.section7 {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+
+/* section 8*/
+.section8 {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    gap: 15px;
+    overflow: hidden;
+}
+
+div.heading2 {
+    height: 50px;
+    padding: 16px;
+    background-color: white;
+}
+
+/** sec8-item**/
+div.sec8-item {
+    height: 580px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 280px 280px;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 15px;
+}
+
+.firstbox {
+    width: 40%;
+}
+
+.sec8-image {
+    border: 1px solid rgb(208, 204, 204);
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+img.sec-8img1 {
+    height: 199px;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+div.name {
+    height: 24px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #212121;
+}
+
+div.name2 {
+    height: 24px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 550;
+    color: green;
+    letter-spacing: 1px;
+}
+
+.secondbox {
+    width: 60%;
+    margin-right: 10px;
+}
+
+img.second-img {
+    height: 694px;
+    width: 100%;
+}
+
+/* ------FOOTER BAR ----*/
+
+div.footer-bar {
+    background-color: rgb(33, 33, 33);
+    height: 100%;  
+    overflow: hidden;
+}
+
+div.sub-footer {
+   display: flex;
+   column-gap: 4%; 
+   margin-left: 20px;
+
+}
+
+.vertical-line {
+    border: 1px solid rgb(89, 89, 97);
+    margin-top: 25px;
+    height: 180px;
+    border-top: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+}   
+
+.horizontal-line {
+    border: 1px solid rgb(89, 89, 97);
+}
+
+p.footer-text {
+    font-size: 14px;
+    color: #878787;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    line-height: 18px;
+
+}
+
+a {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.a-color {
+    color: blue;
+}
+
+
+
+#icon1 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    letter-spacing: 15px;
+}
+
+/**** end part*/
+.footer-icon {
+
+    display: flex;
+    column-gap:4%;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+
+}
+
+
+img.last-icon {
+    height: 12px;
+    width: 18px;
+
+}
+
+.last-text {
+    height: 15px;
+    width: 91px;
+    color: white;
+    font-size: 12px;
+}
+
+.last-text1 {
+    height: 18px;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+
+}
+
+/****   additional css*/
+a:hover {
+    text-decoration: underline;
+}
+.endbar:hover{
+    cursor: pointer;
+}
+
+.sec-8img1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.sec6-img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.naviimage:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.imgsec4:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
